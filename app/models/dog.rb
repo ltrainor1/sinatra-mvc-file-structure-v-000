@@ -9,4 +9,9 @@ def initialize(name = nil, breed = nil, age = nil)
   @breed = breed 
   @@all << self
 end 
+
+def all 
+  @@all 
+end 
+
 end 
